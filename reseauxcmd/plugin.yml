@@ -1,0 +1,25 @@
+---
+name: reseauxcmd
+version: 1.0
+author: wax_dev
+main: wax_dev\reseauxcmd\Main
+api: 4.22.1
+src-namespace-prefix: wax_dev\reseauxcmd
+
+
+commands:
+  site:
+    usage: /site
+    description: "§4Permet D'afficher le lien du site du serveur"
+    permission: site.cmd
+  discord:
+    usage: /discord
+    description: "§4Permet D'afficher le lien du discord du serveur"
+    permission: discord.cmd
+
+permissions:
+  site.cmd:
+    default: true
+  discord.cmd:
+    default: true
+...
